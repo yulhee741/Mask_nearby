@@ -1,0 +1,92 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+            
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+#nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(117, 208, 231);
+    opacity: 0.9;
+    position: relative;
+    z-index: 99;
+}
+
+.back-btn-wrapper{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+
+}
+
+.back-btn-wrapper > i {
+    font-size: 33px;
+    color: white;
+
+}
+
+#main {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background-color: antiquewhite;
+}
+
+#main > #map {
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.search-bar-positioner {
+    position: relative;
+    top: 60px;
+    z-index: 3;
+}
+.serch-bar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    max-height: 50px;
+    padding: 0 10px;
+    margin: 0 auto;
+    width: 90vw;
+    margin: 0 auto;
+    border-radius: 40px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+#search-bar {
+    border-style: none;
+    width: 90%;
+    height: 80%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Nanum Gothic", sans-serif;
+
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+.search-btn > i{
+    color: skyblue;
+    font-size: 25px;
+}
